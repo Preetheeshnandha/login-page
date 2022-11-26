@@ -1,0 +1,45 @@
+body{
+  font-family: sans-serif;
+  background-color: #256D85;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.container{
+background-color: white;
+padding: 0;
+border-radius: 10px;
+box-shadow: 10px 5px 5px;
+overflow: hidden;
+max-width: 45%;
+
+}
+
+form{
+  padding: 10px;
+}
+
+.header{
+background-color: #002B5B;
+color: white;
+
+}
+
+small{
+  visibility: hidden;
+}
+
+
+.errorMessage{
+  visibility: visible;
+  color: red;
+}
+
+.successMessage{
+  visibility: visible;
+  color: green;
+}
